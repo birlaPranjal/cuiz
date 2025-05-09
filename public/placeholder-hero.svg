@@ -1,0 +1,34 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F5F5F5"/>
+  
+  <!-- Document icon -->
+  <rect x="300" y="180" width="200" height="240" rx="8" fill="#E0E0E0" stroke="#333333" stroke-width="2"/>
+  <rect x="320" y="220" width="160" height="10" rx="2" fill="#333333"/>
+  <rect x="320" y="250" width="160" height="10" rx="2" fill="#333333"/>
+  <rect x="320" y="280" width="160" height="10" rx="2" fill="#333333"/>
+  <rect x="320" y="310" width="100" height="10" rx="2" fill="#333333"/>
+  
+  <!-- Checkmark circles -->
+  <circle cx="340" y="350" r="15" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <path d="M332 350L338 356L348 344" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="380" y="350" r="15" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <path d="M372 350L378 356L388 344" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="420" y="350" r="15" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <path d="M412 350L418 356L428 344" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" y="200" r="40" fill="#CCCCCC"/>
+  <circle cx="650" y="400" r="30" fill="#CCCCCC"/>
+  <circle cx="180" y="450" r="25" fill="#CCCCCC"/>
+  <circle cx="600" y="180" r="20" fill="#CCCCCC"/>
+  
+  <rect x="120" y="300" width="120" height="8" rx="4" fill="#CCCCCC"/>
+  <rect x="140" y="320" width="80" height="8" rx="4" fill="#CCCCCC"/>
+  <rect x="160" y="340" width="40" height="8" rx="4" fill="#CCCCCC"/>
+  
+  <rect x="560" y="250" width="120" height="8" rx="4" fill="#CCCCCC"/>
+  <rect x="580" y="270" width="80" height="8" rx="4" fill="#CCCCCC"/>
+  <rect x="600" y="290" width="40" height="8" rx="4" fill="#CCCCCC"/>
+</svg> 
