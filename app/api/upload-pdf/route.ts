@@ -6,22 +6,13 @@ import { v2 as cloudinary } from 'cloudinary';
 
 // Configure Cloudinary with environment variables
 cloudinary.config({ 
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME || '', 
-  api_key: process.env.CLOUDINARY_API_KEY || '', 
-  api_secret: process.env.CLOUDINARY_API_SECRET || '' 
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME || 'travelee', 
+  api_key: process.env.CLOUDINARY_API_KEY || '884793152861746', 
+  api_secret: process.env.CLOUDINARY_API_SECRET || '-UjW9F9RS7Syyz6crou5_otGggg' 
 });
 
 export async function POST(request: NextRequest) {
   try {
-    // Check if Cloudinary is properly configured
-    if (!process.env.CLOUDINARY_CLOUD_NAME || 
-        !process.env.CLOUDINARY_API_KEY || 
-        !process.env.CLOUDINARY_API_SECRET) {
-      return NextResponse.json(
-        { message: 'Cloudinary configuration missing. Please check server environment variables.' },
-        { status: 500 }
-      );
-    }
 
     // Check authentication
     const session = await getServerSession(authOptions);
